@@ -1,0 +1,26 @@
+# C++ skip
+build/
+bin/
+*.exe
+*.o
+
+
+#Python skip
+__pycache__/
+*.pyc
+.venv/
+
+
+#Java - Intellij skip
+target/
+.idea/
+*.iml
+
+# OS Junk
+.DS_Store
+Thumbs.db
+
+
+
+
+

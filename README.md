@@ -1,0 +1,1 @@
+# NanoStream Trading System - High-performance, real-time distributed trading system designed for mission-critical financial operations. Built on a J2EE-based end-to-end stack powered by NATS Jetstream, Redis, and Spring Boot providing a rapid online trading. 
