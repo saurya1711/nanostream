@@ -1,26 +1,247 @@
-# C++ skip
-build/
-bin/
-*.exe
-*.o
 
-
-#Python skip
-__pycache__/
-*.pyc
-.venv/
-
-
-#Java - Intellij skip
-target/
-.idea/
-*.iml
-
-# OS Junk
+############################################################
+# OS GENERATED FILES
+############################################################
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+Icon?
+.Trashes
+.Spotlight-V100
+.fseventsd
+._*
 
+############################################################
+# EDITORS / IDEs
+############################################################
 
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
 
+# VSCode
+.vscode/
+.history/
 
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# CLion
+cmake-build-*/
+
+############################################################
+# JAVA
+############################################################
+
+# Compiled class files
+*.class
+
+# Java archives
+*.jar
+*.war
+*.ear
+*.nar
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# Logs
+*.log
+
+############################################################
+# MAVEN
+############################################################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.mvn/timing.properties
+
+############################################################
+# GRADLE
+############################################################
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+############################################################
+# ANT
+############################################################
+ant_build/
+ant-dist/
+
+############################################################
+# C / C++
+############################################################
+
+# Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Static libraries
+*.a
+*.la
+*.lib
+
+# Shared libraries
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Profiling
+gmon.out
+*.gcda
+*.gcno
+*.gcov
+*.prof
+*.profraw
+*.profdata
+
+############################################################
+# CMAKE
+############################################################
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+CMakeScripts/
+Testing/
+install_manifest.txt
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+build/
+
+############################################################
+# AUTOTOOLS
+############################################################
+autom4te.cache/
+aclocal.m4
+compile
+config.guess
+config.sub
+configure
+depcomp
+install-sh
+ltmain.sh
+Makefile.in
+missing
+libtool
+m4/
+stamp-h1
+
+############################################################
+# MAKE
+############################################################
+*.d
+
+############################################################
+# TEST / COVERAGE
+############################################################
+coverage/
+coverage.xml
+*.lcov
+*.info
+htmlcov/
+.junit/
+test-output/
+
+############################################################
+# TEMP FILES
+############################################################
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+*.rej
+
+############################################################
+# CACHE
+############################################################
+.cache/
+.cache-loader/
+.ccls-cache/
+.clangd/
+
+############################################################
+# PACKAGE MANAGERS / DEPENDENCIES
+############################################################
+
+# Conan
+.conan/
+conanbuildinfo.*
+conaninfo.txt
+
+# vcpkg
+vcpkg_installed/
+
+############################################################
+# ENV / SECRETS
+############################################################
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*.keystore
+secrets/
+credentials/
+
+############################################################
+# ARCHIVES
+############################################################
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+############################################################
+# MISC
+############################################################
+logs/
+tmp/
+temp/
+debug/
+release/
 
